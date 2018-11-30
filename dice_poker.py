@@ -51,10 +51,9 @@ def checkHand():
 		output += "Two Pairs: You win $5"
 		playerAmount += 5
 	elif isOnePair():
-		output += "One Pair: You win $0"
+		output += "One Pair: No Payout."
 	else:
 		output += "No wins in this roll."
-
 
 	helpText.setText(output)
 
